@@ -2,7 +2,7 @@
   "name": "base-es6",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/exec.js",
   "scripts": {
     "build": "webpack --progress  --config config/webpack.prod.config.js",
     "dev": "webpack-dev-server --port 80  --host 127.0.0.1 --inline --hot --config config/webpack.dev.config.js"
